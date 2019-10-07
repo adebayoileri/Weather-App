@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Four Seasons</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="logo">Four Seasons Weather App</div>
+    <div class="wrapper">
+        <div class="weather-info">
+            <h2 id="w-location"></h2>
+            <h3 id="w-desc-info"></h3>
+            <h4 id="w-temp-info"></h4>
+                <i class="" id="w-icon"></i>
+        </div>
+        <div class="container">
+            <ul>
+                <li id="w-humidity"></li> <hr>
+                <li id="w-dew-point"></li> <hr>
+                <li id="w-feels"></li> <hr>
+                <li id="w-wind-speed"></li> <hr>
+            </ul>
+        </div>
+        <button class="open-modal" id="open-modal">Change Location</button>
+    </div>
+    <div class="bg-modal" id="bg-modal">
+    <div class="location-modal" id="location-modal">
+        <div class="form-container">
+            <form action="">
+                <div class="top-info"> 
+         <h5>Choose Location</h5>
+            <span aria-hidden="true" id="close"> &times;</span>
+                </div>
+                <label for="city">City</label>
+                <input type="text" name="" id="w-city" placeholder="Enter City">
+                <input type="submit" value="Save Changes">
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+<script src="./js/storage.js"></script>
+<script src="../weather.js"></script>
+</html>

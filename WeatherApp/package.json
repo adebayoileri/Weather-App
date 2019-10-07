@@ -1,0 +1,11 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather Information Service",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adebayo Ilerioluwa",
+  "license": "MIT"
+}

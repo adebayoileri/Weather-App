@@ -6,6 +6,11 @@ body{
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2082e4;
+}
 h3#w-desc-info{
     font-size: 22px;
     color: black;
@@ -115,4 +120,12 @@ button.open-modal{
     background-color: #2082e4;
     border-radius: 4px;
     cursor: pointer;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #0F2027;
 }
